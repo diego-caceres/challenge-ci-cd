@@ -1,4 +1,4 @@
-include ../../../make.inc
+include ./make.inc
 
 # Carga variables del .env si existe
 ifneq (,$(wildcard .env))
